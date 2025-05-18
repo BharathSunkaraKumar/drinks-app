@@ -55,11 +55,11 @@ const Cocktail = () => {
             </div>
             
             {!loading && !isError?.status && (
-                <div className="box wrapper">
+                <div className="box">
                 {
                     cocktails && cocktails.map((cocktail) => {
                         const {idDrink, strDrink, strCategory, strDrinkThumb, strGlass, strAlcoholic} = cocktail
-                        return <li className="boxContainer" key={idDrink}>
+                        return <li className="boxContainer wrapper" key={idDrink}>
                                     <div>
                                         <img width= '300px' src={strDrinkThumb} alt={strDrink} />
                                     </div>

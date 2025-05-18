@@ -3,7 +3,7 @@
 }
 .wrapper{
   width: 100%;
-  min-width: 1090px;
+  max-width: 1070px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
